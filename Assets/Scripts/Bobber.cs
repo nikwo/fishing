@@ -88,7 +88,7 @@ public class Bobber : MonoBehaviour {
 		okun.BaitType = 2;
 		_fishes[2] = okun;
 		Fish som;
-		som.Prefab = Resources.Load("Prefabs/somHigh", typeof(GameObject)) as GameObject;
+		som.Prefab = Resources.Load("Prefabs/SomHigh1", typeof(GameObject)) as GameObject;
 		som.WeightEnd = 2;
 		som.WeightStart = 1;
 		som.FishName = "Сом";
