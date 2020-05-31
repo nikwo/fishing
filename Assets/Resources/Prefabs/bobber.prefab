@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 138262700090320464}
   - component: {fileID: 114686679568450238}
   - component: {fileID: 82706590443314298}
+  - component: {fileID: 114823456950965524}
   m_Layer: 9
   m_Name: bobber
   m_TagString: Bobber
@@ -70,7 +71,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1636089106303578}
   m_LocalRotation: {x: -0.38268343, y: -0.00036395525, z: 0.923879, w: 0.0008786652}
-  m_LocalPosition: {x: 190.852, y: 97.216, z: 238.787}
+  m_LocalPosition: {x: 191.2385, y: 97.1468, z: 239.75249}
   m_LocalScale: {x: 6.39, y: 3.57, z: 3.53}
   m_Children:
   - {fileID: 4810494232152682}
@@ -118,7 +119,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7a4c4cf1ede79c44981b38ef840f9606, type: 3}
+  - {fileID: 2100000, guid: fdf30cd62c021074c87e392bd76ba900, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,7 +145,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1636089106303578}
-  m_Mesh: {fileID: 4300000, guid: 7a4c4cf1ede79c44981b38ef840f9606, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 436eb1d8d3c9430439a178fe986a124a, type: 3}
 --- !u!54 &54557721389315372
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -227,7 +228,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -258,7 +259,19 @@ MonoBehaviour:
   rodEnd: {fileID: 0}
   rotSmoothing: 0.5
   moveSmoothing: 0.01
+  debug: 1
   reelSpeed: 0.1
+--- !u!114 &114823456950965524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1636089106303578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c65f44eb08e45d4abd0d4ec1f6d4922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136280706045716770
 CapsuleCollider:
   m_ObjectHideFlags: 1

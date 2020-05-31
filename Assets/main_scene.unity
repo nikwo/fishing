@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44233772, g: 0.49138427, b: 0.5712539, a: 1}
+  m_IndirectSpecularColor: {r: 0.44233814, g: 0.49138492, b: 0.5712553, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2318,8 +2318,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1579508396}
-  m_LocalRotation: {x: 0.23063317, y: -0.60429037, z: -0.18841234, w: -0.73901445}
-  m_LocalPosition: {x: 190.43402, y: 93.76113, z: 239.34233}
+  m_LocalRotation: {x: -0.2826166, y: 0.6755127, z: 0.3166262, w: 0.602958}
+  m_LocalPosition: {x: 188.37566, y: 90.072426, z: 239.6402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2782,13 +2782,23 @@ Prefab:
     - target: {fileID: 114686679568450238, guid: 172cfe9749c009a4696e0ea994b94819,
         type: 2}
       propertyPath: debug
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82706590443314298, guid: 172cfe9749c009a4696e0ea994b94819,
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23847649074891656, guid: 172cfe9749c009a4696e0ea994b94819,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fdf30cd62c021074c87e392bd76ba900, type: 2}
+    - target: {fileID: 33917119575053916, guid: 172cfe9749c009a4696e0ea994b94819,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 436eb1d8d3c9430439a178fe986a124a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 172cfe9749c009a4696e0ea994b94819, type: 2}
   m_IsPrefabParent: 0
@@ -2850,8 +2860,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1817887017}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 191.88002, y: 91.839, z: 237.49997}
+  m_LocalRotation: {x: -0.2826166, y: 0.6755127, z: 0.3166262, w: 0.602958}
+  m_LocalPosition: {x: 190.85297, y: 93.68761, z: 239.83386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
